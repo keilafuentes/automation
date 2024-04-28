@@ -13,4 +13,5 @@ test("Add item to cart", async ({ page }) => {
   await addCart.goToInventoryPage();
   await addCart.selectItem();
   await addCart.addItemCart();
+  await addCart.isDescriptionVisible();
 });
