@@ -33,6 +33,15 @@ npx playwright install
 ```
 
 NOTE: Remember to add the secrets & variables to your local repo.
+Create an `.env` file with these variables.
+
+NAME
+PAGEURL
+USER
+PASSWORD
+NAME
+LASTNAME
+POSTALCODE
 
 ### Test Scenarios and test cases
 
@@ -43,9 +52,11 @@ NOTE: Remember to add the secrets & variables to your local repo.
    - Successful login.
 
 2. Add cart
+
    - Select and item.
    - Add to cart
 
-```
-
-```
+3. Checkout info form
+   - Enter to checkout form page.
+   - Fill form without name.
+   - Successful checkout form.
